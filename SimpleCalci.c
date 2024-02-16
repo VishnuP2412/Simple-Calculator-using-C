@@ -22,13 +22,13 @@ void main()
     switch(ch)
     {
         //If the choice is +
-        case('+'):printf("\n%f",(a+b));break;
+        case('+'):printf("\n%f+%f=%f",a,b,(a+b));break;
         //If the choice is -
-        case('-'):printf("\n%f",(a-b));break;
+        case('-'):printf("\n%f-%f=%f",a,b,(a-b));break;
         //If the choice is *
-        case('*'):printf("\n%f",(a*b));break;
+        case('*'):printf("\n%f*%f=%f",a,b,(a*b));break;
         //If the choice is /
-        case('/'):printf("\n%.2f",(float)(a/b));break;
+        case('/'):printf("\n%f/%f=%f",a,b,(a/b));break;
         //If the choice is anything other than those four
         default:printf("\nInvalid Choice. Enter again");goto operation;
     }
